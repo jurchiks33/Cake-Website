@@ -1,0 +1,112 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #fff3f4;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: #333;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+header {
+    background-color: #f06d6b;
+    color: #ffffff;
+    padding-top: 20px;
+    min-height: 80px;
+    border-bottom: #ffffff 3px solid;
+    box-shadow: 0px 4px 2px -2px gray;
+}
+
+nav {
+    text-align: center;
+    padding: 5px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    transition: color 0.4s;
+}
+
+nav ul li a:hover {
+    color: #ffd1d1;
+}
+
+main {
+    margin: 50px 30px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #ffe2e7;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px 0px #bdbdbd;
+}
+
+.featured {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+article {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 300px;
+    transition: all 0.4s;
+    box-shadow: 0px 4px 6px 0px #bdbdbd;
+}
+
+article:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 12px 0px #bdbdbd;
+}
+
+article img {
+    max-width: 100%;
+    transition: transform 0.4s;
+}
+
+article img:hover {
+    transform: scale(1.1);
+}
+
+article h2 {
+    font-size: 22px;
+    margin: 15px 0;
+    color: #4a4a4a;
+}
+
+article p {
+    margin: 0 0 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #f06d6b;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -2px 4px 0px gray;
+}
